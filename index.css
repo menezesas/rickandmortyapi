@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,35,41,1) 50%, rgba(65,76,78,1) 100%);
+}
+
+#titulo {
+    text-align: center;
+    margin: 15px;
+    color: green;
+    background-color: white;
+    font-size: 6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resultado {
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 100px;
+    margin: 50px;
+    padding-left: 30vh;
+    padding-top: 100px;
+}
+
+.footer{
+    background-image: url('images/rick-and-morty-portal-shoes-white-clothing-zavvi-23.png');
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.container-fluid{
+    padding-top: 50px;
+}
+
